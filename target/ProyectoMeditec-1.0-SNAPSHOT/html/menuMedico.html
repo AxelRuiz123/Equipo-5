@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Médico</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <style>
+        body{
+            font-family: 'PT Sans', sans-serif;
+        }
+        img{
+            max-width: 100%;
+            width:  220px;
+            height: 100px;
+            margin: 10px;
+            padding: 5px;
+            position: relative;
+            top: 10px;
+
+        }
+        .seleccion{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: blue;
+            width: 780px;
+            height: 660px;
+            position: relative;
+            top: -400px;
+            background-color: rgba(233, 255, 254, 1); /* Color con opacidad */
+            border-radius: 10px;
+
+        }
+        .contenedorDos{
+            display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            height: 100vh; /* Ocupa el 100% de la altura del viewport */
+        }
+        .doctoresMh{
+            max-width: 100%;
+            width:  220px;
+            height: 100px;
+            margin: 70px;
+            padding: 5px;
+            position: relative;
+            top: -200px;
+            left: 1150px;
+        }
+        .logoM{
+            position: relative;
+            right: 110px;
+            top: -100px;
+        }
+        .fa-user-md{
+            font-size: 50px;
+        }
+        .menu-btn {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .btn-line {
+            width: 30px;
+            height: 3px;
+            background-color: #333;
+            margin: 6px 0;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #2222DA;
+            padding: 15px;
+            /*border-radius: 10px;*/
+            position: relative;
+            top: -250px;
+            padding: 10px 10px;
+            /*box-shadow: 5px 5px 5px #888;*/
+            width: 100%;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        .menu li {
+            margin: 0 15px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        .menu a:hover {
+            color: #FFD700;
+        }
+        .cuentaM{
+            position: relative;
+            top: -30px;
+            right: 270px;
+        }
+        .button{
+            top: -30px;
+            position: relative;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            box-shadow: 5px 5px 5px #888;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            margin: 20px;
+        }
+        .button:hover{
+            background-color: rgba(21,67,96,1);
+        }
+    </style>
+    <script>
+        function regresarRegistro() {
+            window.location.href = 'registro.html';
+        }
+    </script>
+
+
+    <body>
+        <div class="meditecLogo">
+            <img src="img/meditec.png" alt=""/>
+        </div>
+        <div class="doctoresMh">
+            <img src="img/imgDoctores.png" alt=""/>
+        </div>
+        <div class="contenedorDos">
+            <div class="seleccion">
+                <div class="cuentaM">
+                    <h1>BIENVENIDO(A)</h1>
+                </div>
+                <div class="logoM">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Notificaciones</a></li>
+                        <li><a href="#">Mensajes</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Modificar Perfil</a></li>
+                        <li><a href="#">Cerrar Sesión</a></li>
+                    </ul>
+                </nav>
+                <button class="button" >Citas</button>
+                <button class="button" >Pacientes</button>
+            </div>
+        </div>
+    </body>
+</html>
+

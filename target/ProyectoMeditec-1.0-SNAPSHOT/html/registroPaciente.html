@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Registro Paciente</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <style>
+        body{
+            font-family: 'PT Sans', sans-serif;
+        }
+        img{
+            max-width: 100%;
+            width:  220px;
+            height: 100px;
+            margin: 10px;
+            padding: 5px;
+            position: relative;
+            top: 10px;
+
+        }
+        .seleccion{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: blue;
+            width: 780px;
+            height: 660px;
+            position: relative;
+            top: -400px;
+            background-color: rgba(233, 255, 254, 1); /* Color con opacidad */
+            border-radius: 10px;
+
+        }
+        .contenedorDos{
+            display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            height: 100vh; /* Ocupa el 100% de la altura del viewport */
+        }
+        .button{
+
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 5px;
+            font-size: 16px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            background-color: #2980b9;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            margin: 30px;
+            box-shadow: 5px 5px 5px #888;
+            position: relative;
+            top: -50px;
+        }
+        .button i{
+            margin-left: 20px;
+        }
+        .button:hover{
+            background-color: rgba(21,67,96,1);
+        }
+        .botonRegresarDos{
+            top: 15px;
+            position: relative;
+            left: 300px;
+            background-color: #C0C9CA;
+            color: #fff;
+            border: none;
+            padding: 10px 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            box-shadow: 5px 5px 5px #888;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+        .botonRegresarDos:hover{
+            background-color: rgba(21,67,96,1);
+        }
+
+        .fa-user-md{
+            font-size: 25px;
+        }
+        .doctoresMh{
+            max-width: 100%;
+            width:  220px;
+            height: 100px;
+            margin: 70px;
+            padding: 5px;
+            position: relative;
+            top: -200px;
+            left: 1150px;
+        }
+
+        .med-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px; /* Ajusta el ancho máximo del formulario según tus necesidades */
+            position: relative;
+            right: 140px;
+        }
+
+        label {
+            margin-bottom: 5px; /* Espacio entre las etiquetas y los inputs */
+        }
+
+        input {
+            margin-bottom: 15px; /* Espacio entre los campos de entrada */
+        }
+        .fa-arrow-left{
+            font-size: 20px;
+        }
+        .fa-check{
+            font-size: 25px;
+        }
+        .enviarRM{
+            top: -30px;
+            position: relative;
+            background-color: #42CF1F;
+            color: #fff;
+            border: none;
+            padding: 10px 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            box-shadow: 5px 5px 5px #888;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+         .enviarRM:hover{
+            background-color: rgba(21,67,96,1);
+        }
+        .logoM{
+            position: relative;
+            left: 170px;
+            top: 200px;
+        }
+        .fas fa-user{
+            font-size: 200px;
+        }
+        .cuentaP{
+            position: relative;
+            top: -10px;
+        }
+        input:focus {
+            outline: none;
+            border-color: #5b9dd9;
+            box-shadow: 0 0 5px rgba(91, 157, 217, 0.5);
+            
+        }
+
+    </style>
+    <script>
+        function regresarRegistro() {
+            window.location.href = 'registro.html';
+        }
+    </script>
+
+
+    <body>
+        <div class="meditecLogo">
+            <img src="img/meditec.png" alt=""/>
+        </div>
+        <div class="doctoresMh">
+            <img src="img/imgDoctores.png" alt=""/>
+        </div>
+        <div class="contenedorDos">
+            <div class="seleccion">
+                <div class="cuentaP">
+                    <h1>CUENTA PACIENTE</h1>
+                </div>
+                <div class="logoM">
+                    <i class="fas fa-user"></i>
+                </div>
+                <form class="med-form">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="apellido">Apellido Paterno:</label>
+                    <input type="text" id="apellido" name="ApPat" required>
+                    
+                    <label for="apellido1">Apellido Materno:</label>
+                    <input type="text" id="apellido" name="ApMat" required>
+                    
+                    <label for="genero">Sexo:</label>
+                    <input type="text" id="sexo" name="sexo" required>
+
+                    <label for="email">Correo Electronico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <label for="passwordConfirmar">Intruzca de nuevo la contraseña:</label>
+                    <input type="password" id="passwordConfirma" name="passwordConfirma" required>
+
+                    <label for="curp">CURP:</label>
+                    <input type="text" id="curp" name="curp" required>
+                    
+                    <label for="celular">Numero de Celular:</label>
+                    <input type="text" id="celular" name="celular" required>
+
+                    <label for="date">Fecha de Nacimiento:</label>
+                    <input type="date" id="date" name="date" required>
+
+                    <button class="botonRegresarDos" onclick="regresarRegistro()">Atrás <i class="fas fa-arrow-left"></i></button>
+                    <button class="enviarRM">Registrar <i class="fas fa-check"></i></button>
+
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
