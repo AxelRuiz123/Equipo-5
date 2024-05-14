@@ -1,15 +1,15 @@
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\controllers\serveletPaciente.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\models\Paciente.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\models\Medico.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\models\Objetos.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\controllers\servletPaciente.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\controllers\servletCita.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\models\Hora.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\controllers\controllerCitas.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\controllers\logout.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\controllers\serveletConsultaP.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\models\Fecha.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\models\Cita.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\controllers\serveletMedico.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\models\Info_P.java
-F:\Alex Marin\ProyectoMeditecA\ProyectoMeditecA\ProyectoMeditecA\src\main\java\uabc\fiad\controllers\servletInfoP.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\controllers\serveletPaciente.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\models\Info_P.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\models\Cita.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\models\Fecha.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\models\Objetos.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\controllers\servletInfoP.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\models\Medico.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\controllers\logout.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\controllers\servletPaciente.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\models\Hora.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\controllers\serveletMedico.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\controllers\controllerCitas.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\controllers\serveletConsultaP.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\controllers\servletCita.java
+D:\Documentos\Mediatec\Equipo-5\src\main\java\uabc\fiad\models\Paciente.java
