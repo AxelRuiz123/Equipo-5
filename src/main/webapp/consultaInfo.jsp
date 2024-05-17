@@ -21,16 +21,6 @@
         body{
             font-family: 'PT Sans', sans-serif;
         }
-        img{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 10px;
-            padding: 5px;
-            position: relative;
-            top: 10px;
-
-        }
         .seleccion{
             display: flex;
             flex-direction: column;
@@ -40,7 +30,7 @@
             width: 780px;
             height: 800px;
             position: relative;
-            top: -300px;
+            top: -200px;
             background-color: rgba(233, 255, 254, 1); /* Color con opacidad */
             border-radius: 10px;
 
@@ -74,16 +64,16 @@
             background-color: rgba(21,67,96,1);
         }
         .botonRegresar{
-            top: -730px;
+            top: -740px;
             position: relative;
-            left: 300px;
+            left: 290px;
             background-color: #C0C9CA;
-            color: #fff;
+            color: #0b0b0b;
             border: none;
             padding: 10px 20px;
-            border-radius: 5px;
-            font-size: 16px;
-            box-shadow: 5px 5px 5px #888;
+            border-radius: 25px;
+            font-size: 20px;
+            box-shadow: 1px 5px 5px #100;
             transition: background-color 0.3s;
             cursor: pointer;
         }
@@ -93,22 +83,31 @@
         .nosotros{
             text-align: center;
             position: relative;
-            top: -170px;
+            top: -120px;
+            font-size: 30px;
         }
-        .doctoresMh{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 70px;
+        .doctoresMh img{
+            
+            width:  300px;
+            height: 150px;
+            margin: 10px;
             padding: 5px;
             position: relative;
-            top: -200px;
-            left: 1150px;
+            top: -180px;
+            right: -1150px;
+        }
+        .meditecLogo img {
+            width:  300px;
+            height: 150px;
+            margin: 10px;
+            padding: 5px;
+            position: relative;
+            top: 0px;
+            left: 0px;
         }
         .info{
-            position: relative;
-            top: -50px;
-            margin: 20px;
+          text-align: justify;  
+          margin: 20px;
         }
     </style>
     <script>

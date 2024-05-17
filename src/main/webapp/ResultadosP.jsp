@@ -21,16 +21,7 @@
         body{
             font-family: 'PT Sans', sans-serif;
         }
-        img{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 10px;
-            padding: 5px;
-            position: relative;
-            top: 10px;
-
-        }
+        
         .seleccion{
             display: flex;
             flex-direction: column;
@@ -51,20 +42,29 @@
             align-items: center; /* Centra verticalmente */
             height: 100vh; /* Ocupa el 100% de la altura del viewport */
         }
-        .doctoresMh{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 70px;
+        .doctoresMh img{
+            
+            width:  300px;
+            height: 150px;
+            margin: 10px;
             padding: 5px;
             position: relative;
-            top: -200px;
-            left: 1150px;
+            top: -180px;
+            right: -1150px;
+        }
+        .meditecLogo img {
+            width:  300px;
+            height: 150px;
+            margin: 10px;
+            padding: 5px;
+            position: relative;
+            top: 0px;
+            left: 0px;
         }
         .logoM{
             position: relative;
-            right: 90px;
-            top: -90px;
+            right: -230px;
+            top: -232px;
         }
         .fa-user-md{
             font-size: 50px;
@@ -117,10 +117,11 @@
         .menu a:hover {
             color: #FFD700;
         }
-        .cuentaM{
+        .cuentaM h1{
             position: relative;
-            top: -30px;
-            right: 250px;
+            top: -180px;
+            right: 90px;
+            font-size: 30px;
         }
         .button{
             top: -30px;

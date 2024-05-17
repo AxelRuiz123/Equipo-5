@@ -22,16 +22,7 @@
         body{
             font-family: 'PT Sans', sans-serif;
         }
-        img{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 10px;
-            padding: 5px;
-            position: relative;
-            top: 10px;
-
-        }
+        
         .seleccion{
             display: flex;
             flex-direction: column;
@@ -52,15 +43,24 @@
             align-items: center; /* Centra verticalmente */
             height: 100vh; /* Ocupa el 100% de la altura del viewport */
         }
-        .doctoresMh{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 70px;
+        .doctoresMh img{
+            
+            width:  300px;
+            height: 150px;
+            margin: 10px;
             padding: 5px;
             position: relative;
-            top: -200px;
-            left: 1150px;
+            top: -180px;
+            right: -1150px;
+        }
+        .meditecLogo img {
+            width:  300px;
+            height: 150px;
+            margin: 10px;
+            padding: 5px;
+            position: relative;
+            top: 0px;
+            left: 0px;
         }
         .fa-user-md{
             font-size: 50px;
@@ -84,10 +84,9 @@
             justify-content: center;
             align-items: center;
             background-color: #2222DA;
-            padding: 15px;
-            /*border-radius: 10px;*/
+            border-radius: 10px;
             position: relative;
-            top: -150px;
+            top: -188px;
             padding: 10px 10px;
             /*box-shadow: 5px 5px 5px #888;*/
             width: 100%;
@@ -106,7 +105,7 @@
             text-decoration: none;
             color: white;
             font-weight: bold;
-            font-size: 18px;
+            font-size: 25px;
             transition: color 0.3s;
         }
 

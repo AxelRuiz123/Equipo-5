@@ -23,16 +23,6 @@
         body{
             font-family: 'PT Sans', sans-serif;
         }
-        img{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 10px;
-            padding: 5px;
-            position: relative;
-            top: 10px;
-
-        }
         .seleccion{
             display: flex;
             flex-direction: column;

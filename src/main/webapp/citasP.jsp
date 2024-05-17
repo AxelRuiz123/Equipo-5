@@ -29,16 +29,6 @@
                 padding: 0;
                 background-color: #f0f0f0;
         }
-        img{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 10px;
-            padding: 5px;
-            position: relative;
-            top: 10px;
-
-        }
         .seleccion{
             background: #fff;
             width: 600px;
@@ -46,6 +36,8 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin: auto;/*centra horizontalmente*/
+            position: relative;
+            top: -290px;
         }
         .contenedorDos{
             display: flex;
@@ -53,25 +45,34 @@
             align-items: center; /* Centra verticalmente */
             min-height: 100vh; /* Ocupa el 100% de la altura del viewport */
         }
-        .doctoresMh{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 70px;
+        .doctoresMh img{
+            
+            width:  300px;
+            height: 150px;
+            margin: 10px;
             padding: 5px;
             position: relative;
-            top: -200px;
-            left: 1150px;
+            top: -150px;
+            right: -1150px;
+        }
+        .meditecLogo img {
+            width:  300px;
+            height: 150px;
+            margin: 10px;
+            padding: 5px;
+            position: relative;
+            top: 20px;
+            left: 0px;
         }
         .logoM{
             position: relative;
-            right: 90px;
+            right: 150px;
             top: -90px;
             color: #007bff;
             font-size: 36px;
         }
         .fa-user-md{
-            font-size: 50px;
+            font-size: 80px;
 
         }
         .menu-btn {
@@ -125,6 +126,8 @@
             color: #333;
             font-size: 24px;
             margin-bottom: 20px;
+            position: relative;
+            top: 50px;
         }
         .button{
             top: -30px;

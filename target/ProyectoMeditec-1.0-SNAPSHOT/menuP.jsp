@@ -22,16 +22,6 @@
         body{
             font-family: 'PT Sans', sans-serif;
         }
-        img{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 10px;
-            padding: 5px;
-            position: relative;
-            top: 10px;
-
-        }
         .seleccion{
             display: flex;
             flex-direction: column;
@@ -41,9 +31,10 @@
             width: 780px;
             height: 660px;
             position: relative;
-            top: -400px;
+            top: -350px;
             background-color: rgba(233, 255, 254, 1); /* Color con opacidad */
             border-radius: 10px;
+
 
         }
         .contenedorDos{
@@ -52,23 +43,32 @@
             align-items: center; /* Centra verticalmente */
             height: 100vh; /* Ocupa el 100% de la altura del viewport */
         }
-        .doctoresMh{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 70px;
+        .doctoresMh img{
+            
+            width:  300px;
+            height: 150px;
+            margin: 10px;
             padding: 5px;
             position: relative;
-            top: -200px;
-            left: 1150px;
+            top: -150px;
+            right: -1150px;
         }
-        .logoM{
+        .meditecLogo img {
+            width:  300px;
+            height: 150px;
+            margin: 10px;
+            padding: 5px;
             position: relative;
-            right: 90px;
-            top: -90px;
+            top: 20px;
+            left: 0px;
+        }
+        logoM{
+            position:relative;
+            right: 210px;
+            top: -200px;
         }
         .fa-user-md{
-            font-size: 50px;
+            font-size: 60px;
 
         }
         .menu-btn {
@@ -84,19 +84,6 @@
             margin: 6px 0;
         }
 
-        .menu {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #2222DA;
-            padding: 15px;
-            /*border-radius: 10px;*/
-            position: relative;
-            top: -250px;
-            padding: 10px 10px;
-            /*box-shadow: 5px 5px 5px #888;*/
-            width: 100%;
-        }
         .menu ul {
             list-style: none;
             padding: 0;
@@ -121,17 +108,17 @@
         .cuentaM{
             position: relative;
             top: -30px;
-            right: 250px;
+            right: 220px;
         }
         .button{
-            top: -30px;
+            top: 50px;
             position: relative;
             background-color: #3498db;
             color: #fff;
             border: none;
             padding: 10px 10px;
             border-radius: 5px;
-            font-size: 16px;
+            font-size: 35px;
             box-shadow: 5px 5px 5px #888;
             transition: background-color 0.3s;
             cursor: pointer;
@@ -183,9 +170,16 @@
         
         nav ul {
             list-style: none;
-            padding: 0;
             display: flex;
-        }
+            justify-content: center;
+            align-items: center;
+            background-color: #2222DA;
+            border-radius: 10px;
+            position: relative;
+            top: 0px;
+            padding: 10px 10px;
+            width: 100%;
+            }
 
         nav li {
             margin: 0 15px;
@@ -195,7 +189,7 @@
             text-decoration: none;
             color: black; /* Cambia el color según tus preferencias */
             font-weight: bold;
-            font-size: 18px;
+            font-size: 30px;
             transition: color 0.3s;
         }
 
@@ -210,11 +204,12 @@
             left: 50%;
             transform: translate(-50%, -50%);
             padding: 20px;
-            background-color: #fff;
+            background-color: #a2f6ff;
             border: 1px solid #ccc;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             z-index: 1000;
             max-width: 80%; /* Limita el ancho del modal para que sea responsivo */
+            max-inline-size: -webkit-fill-available;
         }
 
         .modal-contenido {
@@ -228,8 +223,7 @@
 
         /* Ajustes adicionales para mejorar la visualización del contenido */
         .modal .main_title {
-            color: #333;
-            font-size: 18px; /* Tamaño de fuente más pequeño */
+            font-size: 30px; /* Tamaño de fuente más pequeño */
         }
 
         .modal .imagen_main {
@@ -258,7 +252,15 @@
 
         /* Ajuste adicional para mejorar la visualización del segundo modal */
         #modal2 .imagen_main {
-            max-width: 50%;
+            max-width: 30%;
+        }
+        a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+        }
+        .servicio_main {
+            text-align: center;
         }
 
     </style>
