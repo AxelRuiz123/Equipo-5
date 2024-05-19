@@ -18,16 +18,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         body{
             font-family: 'PT Sans', sans-serif;
         }
-        img{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 10px;
-            padding: 5px;
-            position: relative;
-            top: 10px;
-
-        }
         .seleccion{
             display: flex;
             flex-direction: column;
@@ -48,15 +38,24 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             align-items: center; /* Centra verticalmente */
             height: 100vh; /* Ocupa el 100% de la altura del viewport */
         }
-        .doctoresMh{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 70px;
+        .doctoresMh img{
+            
+            width:  300px;
+            height: 150px;
+            margin: 10px;
             padding: 5px;
             position: relative;
-            top: -200px;
-            left: 1150px;
+            top: -180px;
+            right: -1150px;
+        }
+        .meditecLogo img {
+            width:  300px;
+            height: 150px;
+            margin: 10px;
+            padding: 5px;
+            position: relative;
+            top: 0px;
+            left: 0px;
         }
         .logoM{
             position: relative;
@@ -84,13 +83,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             justify-content: center;
             align-items: center;
             background-color: #2222DA;
-            padding: 15px;
-            /*border-radius: 10px;*/
+            border-radius: 10px;
             position: relative;
-            top: -250px;
+            top: -266px;
             padding: 10px 10px;
-            /*box-shadow: 5px 5px 5px #888;*/
-            width: 100%;
+            width: 97%;
         }
         .menu ul {
             list-style: none;
@@ -119,14 +116,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             right: 270px;
         }
         .button{
-            top: -30px;
+            top: -100px;
             position: relative;
             background-color: #3498db;
             color: #fff;
             border: none;
             padding: 10px 10px;
             border-radius: 5px;
-            font-size: 16px;
+            font-size: 35px;
             box-shadow: 5px 5px 5px #888;
             transition: background-color 0.3s;
             cursor: pointer;
@@ -145,10 +142,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 
     <body>
         <div class="meditecLogo">
-            <img src="img/meditec.png" alt=""/>
+            <img src="../img/meditec.png" alt=""/>
         </div>
         <div class="doctoresMh">
-            <img src="img/imgDoctores.png" alt=""/>
+            <img src="../img/imgDoctores.png" alt=""/>
         </div>
         <div class="contenedorDos">
             <div class="seleccion">

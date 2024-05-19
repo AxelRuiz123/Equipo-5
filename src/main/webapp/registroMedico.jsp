@@ -22,16 +22,6 @@
         body{
             font-family: 'PT Sans', sans-serif;
         }
-        img{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 10px;
-            padding: 5px;
-            position: relative;
-            top: 10px;
-
-        }
         .seleccion{
             display: flex;
             flex-direction: column;
@@ -96,15 +86,24 @@
         .fa-user-md{
             font-size: 25px;
         }
-        .doctoresMh{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 70px;
+        .doctoresMh img{
+            
+            width:  300px;
+            height: 150px;
+            margin: 10px;
             padding: 5px;
             position: relative;
-            top: -200px;
-            left: 1150px;
+            top: -150px;
+            right: -1150px;
+        }
+        .meditecLogo img {
+            width:  300px;
+            height: 150px;
+            margin: 10px;
+            padding: 5px;
+            position: relative;
+            top: 20px;
+            left: 0px;
         }
 
         .form_container {
@@ -189,10 +188,13 @@
                 </div>
                 <form action="serveletMedico" method="post" class="form_container">
                 <input type="hidden" name="action" value="register">
-                    <label for="nombre">Nombre completo:</label>
+                    <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" required="required">
+                    
+                    <label for="nombre">Apellidos:</label>
+                    <input type="text" id="apellido" name="apellido" required="required">
 
-                    <label for="cedula">Edad:</label>
+                    <label for="cedula">Fecha de Nacimiento:</label>
                     <input  type="number" id="edad" name="edad" required="required">
 
                     <label for="cedula">N° de Celula:</label>

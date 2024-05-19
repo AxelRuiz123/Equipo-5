@@ -84,7 +84,8 @@
         }
         .footer{
             letter-spacing: 0.5px;
-            font-size: 14px;
+            font-size: 20px;
+            
         }
         .registro{
             text-decoration: none;
@@ -92,9 +93,10 @@
         }
         .info{
             position: relative;
-            left: 600px;
-            top: -150px;
+            left: 0px;
+            top: 350px;
             text-decoration: none;
+            font-size: 30px;
         }
         @media only screen and (max-width: 767px){
             body{

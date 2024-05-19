@@ -21,16 +21,6 @@
         body{
             font-family: 'PT Sans', sans-serif;
         }
-        img{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 10px;
-            padding: 5px;
-            position: relative;
-            top: 10px;
-
-        }
         .seleccion{
             display: flex;
             flex-direction: column;
@@ -51,20 +41,29 @@
             align-items: center; /* Centra verticalmente */
             height: 100vh; /* Ocupa el 100% de la altura del viewport */
         }
-        .doctoresMh{
-            max-width: 100%;
-            width:  220px;
-            height: 100px;
-            margin: 70px;
+        .doctoresMh img{
+            
+            width:  300px;
+            height: 150px;
+            margin: 10px;
             padding: 5px;
             position: relative;
-            top: -200px;
-            left: 1150px;
+            top: -180px;
+            right: -1150px;
+        }
+        .meditecLogo img {
+            width:  300px;
+            height: 150px;
+            margin: 10px;
+            padding: 5px;
+            position: relative;
+            top: 0px;
+            left: 0px;
         }
         .logoM{
             position: relative;
-            right: 90px;
-            top: -90px;
+            right: -120px;
+            top: -200px;
         }
         .fa-user-md{
             font-size: 50px;
@@ -119,22 +118,23 @@
         }
         .cuentaM{
             position: relative;
-            top: -30px;
-            right: 250px;
+            top: -140px;
+            right: 160px;
         }
         .button{
-            top: -30px;
+            
             position: relative;
             background-color: #3498db;
             color: #fff;
             border: none;
             padding: 10px 10px;
             border-radius: 5px;
-            font-size: 16px;
+            font-size: 30px;
             box-shadow: 5px 5px 5px #888;
             transition: background-color 0.3s;
             cursor: pointer;
             margin: 20px;
+            
         }
         .button:hover{
             background-color: rgba(21,67,96,1);
@@ -259,6 +259,11 @@
         #modal2 .imagen_main {
             max-width: 50%;
         }
+        .nombreP {
+            font-size: 25px;
+            position: relative;
+            top: -50px;
+        }
 
     </style>
     <body>
@@ -277,7 +282,7 @@
                 <i class="fas fa-user-md"></i>
             </div>
            
-            <form action="serveletConsultaP" method="post">
+            <form action="serveletConsultaP" class="nombreP" method="post">
                 <label for="nombrePaciente">Nombre del Paciente:</label>
                 <input type="text" id="nombrePaciente" name="nombrePaciente" required>
                 <button type="submit" class="button">Consultar</button>
